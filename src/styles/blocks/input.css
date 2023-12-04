@@ -1,3 +1,7 @@
+input {
+    border: none;
+}
+
 .input {
     border: none;
     font-size: 13px;
@@ -17,5 +21,10 @@
     font-size: 13px;
     line-height: 13px;
     font-weight: 500;
+    color: #999999;
+}
+
+.input-right {
+    text-align: right;
     color: #999999;
 }
