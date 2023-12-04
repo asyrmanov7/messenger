@@ -1,0 +1,21 @@
+.input {
+    border: none;
+    font-size: 13px;
+    border-bottom: #3369F3 1px solid;
+    min-width: 320px;
+    margin: 0 auto 25px;
+    display: flex;
+    width: 85%;
+}
+
+.on-input {
+    font-size: 9px;
+    line-height: 9px;
+}
+
+.input-name {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 500;
+    color: #999999;
+}
