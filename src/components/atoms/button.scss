@@ -1,0 +1,21 @@
+.button {
+  width: 85%;
+  display: flex;
+  margin: 0 auto 20px;
+  justify-content: center;
+  border: none;
+  padding: 10px;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.button-submit {
+  background-color: #3369F3;
+  border-radius: 8px;
+  color: #FFFF;
+}
+
+.clear-button {
+  background-color: white;
+  color: #3369F3;
+}
