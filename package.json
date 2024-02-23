@@ -16,7 +16,10 @@
     "vite": "^5.1.3"
   },
   "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
     "handlebars": "^4.7.8",
+    "path": "^0.12.7",
     "vite-plugin-handlebars": "^2.0.0"
   }
 }

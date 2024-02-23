@@ -1,4 +1,4 @@
-const signupInfo = [
+export const signupInfo = [
     {
         placeholder: "Email",
         name: "email",

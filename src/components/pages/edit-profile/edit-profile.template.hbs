@@ -1,7 +1,9 @@
 <main class="profile-editor">
     <ul>
+        {{#each this}}
         <li class="profile-editor__edit-button">
-            <p>{{label}}</p>
+            <p>{{this}}</p>
         </li>
+        {{/each}}
     </ul>
 </main>

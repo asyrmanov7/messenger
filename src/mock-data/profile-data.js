@@ -1,4 +1,4 @@
-const profileData = [
+export const profileData = [
     {label: "Почта", info: "pochta@yandex.ru"},
     {label: "Логин", info: "ivanivanov"},
     {label: "Имя", info: "Иван"},

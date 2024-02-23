@@ -5,10 +5,12 @@
         </div>
     </div>
     <ul>
-        <li class="profile-editor__info">
-            <h4>{{label}}</h4>
-            <p>{{info}}</p>
-        </li>
+        {{#each this}}
+            <li class="profile-editor__info">
+                <h4>{{label}}</h4>
+                <p>{{info}}</p>
+            </li>
+        {{/each}}
     </ul>
     <button class="button">
         Сохранить
