@@ -30,7 +30,7 @@
   margin-bottom: 20px;
   padding-bottom: 10px;
 
-  h4 {
+  label {
     font-size: $profile-font-size;
     line-height: $profile-line-height;
     color: $color-primary;
@@ -38,11 +38,13 @@
     font-weight: 600;
   }
 
-  p{
+  input{
     font-size: $profile-font-size;
     line-height: $profile-line-height;
     color: $color-secondary;
     margin: 0;
+    text-align: right;
+    background-color: #FFFFFF;
   }
 }
 

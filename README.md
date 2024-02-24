@@ -62,3 +62,6 @@ yarn
 yarn dev
 ```
 
+Сайт находится под url: https://deploy-preview-1--resplendent-torte-910e19.netlify.app/
+Для просмотра других страниц необходимо добавить е ссылке: ?page=profile, к примеру
+Sign in: https://deploy-preview-1--resplendent-torte-910e19.netlify.app/?page=sign-in

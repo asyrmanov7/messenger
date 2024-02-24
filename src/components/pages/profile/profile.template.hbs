@@ -5,14 +5,18 @@
         </div>
     </div>
     <ul>
-        {{#each this}}
+        {{#each mainData}}
             <li class="profile-editor__info">
-                <h4>{{label}}</h4>
-                <p>{{info}}</p>
+                <label>{{label}}</label>
+                <input placeholder="{{placeholder}}" id="{{name}}" name="{{name}}" disabled />
             </li>
         {{/each}}
     </ul>
-    <button class="button">
-        Сохранить
-    </button>
+    <ul>
+        {{#each buttonLabel}}
+            <li class="profile-editor__edit-button">
+                <p>{{this}}</p>
+            </li>
+        {{/each}}
+    </ul>
 </main>

@@ -2,6 +2,9 @@
   "name": "messenger",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
   "repository": "https://github.com/asyrmanov7/messenger.git",
   "author": "Abunasyr <abunasyr1@gmail.com>",
   "license": "MIT",

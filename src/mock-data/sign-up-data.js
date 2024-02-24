@@ -15,22 +15,22 @@ export const signupInfo = [
     },
     {
         placeholder: "First Name",
-        name: "first-name",
-        id: "first-name",
+        name: "first_name",
+        id: "first_name",
         type: "text",
         class: ""
     },
     {
         placeholder: "Last Name",
-        name: "last-name",
-        id: "last-name",
+        name: "second_name",
+        id: "second_name",
         type: "text",
         class: ""
     },
     {
         placeholder: "Phone Number",
-        name: "phone-number",
-        id: "phone-number",
+        name: "phone",
+        id: "phone",
         type: "tel",
         class: ""
     },
