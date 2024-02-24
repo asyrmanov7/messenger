@@ -4,6 +4,10 @@
 
 Веб-приложение "Чат" — это интерактивное приложение для обмена сообщениями в реальном времени. Этот проект вдохновлен популярными мессенджерами, такими как Telegram, Yandex.Messenger и WhatsApp, и предназначен для демонстрации навыков в разработке современных веб-приложений. От прототипирования на бумаге до развёртывания на Netlify, этот проект охватывает полный цикл разработки.
 
+Сайт находится под url: https://deploy-preview-1--resplendent-torte-910e19.netlify.app/
+Для просмотра других страниц необходимо добавить е ссылке: ?page=profile, к примеру
+Sign in: https://deploy-preview-1--resplendent-torte-910e19.netlify.app/?page=sign-in
+
 ## Технологии
 
 - **JavaScript/TypeScript**: Основные языки программирования для реализации логики приложения. Версия TypeScript ≥ 3.8.
@@ -62,6 +66,3 @@ yarn
 yarn dev
 ```
 
-Сайт находится под url: https://deploy-preview-1--resplendent-torte-910e19.netlify.app/
-Для просмотра других страниц необходимо добавить е ссылке: ?page=profile, к примеру
-Sign in: https://deploy-preview-1--resplendent-torte-910e19.netlify.app/?page=sign-in
