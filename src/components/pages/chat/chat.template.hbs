@@ -1,0 +1,36 @@
+<main class="main-messenger">
+    <div class="chats">
+        <p class="profile-text secondary-color">Profile
+            <img src="/svg/arrow.svg" alt="More">
+        </p>
+        <input class="search" alt="search" placeholder="Поиск"/>
+        {{#each this}}
+        <div class="contacts">
+            <div class="avatar"></div>
+            <div class="contact">
+                <h4>{{name}}</h4>
+                <p>{{#if isMine}}Вы:{{/if}} {{message}}</p>
+            </div>
+            <p class="time secondary-color">{{time}}</p>
+            {{#isNotZero unread}}<div class="notification">{{unread}}</div>{{/isNotZero}}
+        </div>
+        {{/each}}
+    </div>
+    <div class="current-chat">
+        <div class="current-chat__header">
+            <div class="current-chat__avatar avatar">
+            </div>
+            <h4>{{login}}</h4>
+            <img src="/svg/more.svg" alt="More">
+        </div>
+        <div class="current-chat__conversation">
+
+        </div>
+        <div class="current-chat__message">
+            <img src="/svg/apply.svg" alt="Apply">
+            <input placeholder="Сообщение" id="message" name="message" type="text"/>
+            <img src="/svg/send.svg" alt="Send">
+        </div>
+<!--                    <p class="no-message secondary-color">Выберите чат чтобы отправить сообщение</p>-->
+    </div>
+</main>

@@ -1,0 +1,22 @@
+<main class="profile-editor">
+    <div class="profile-editor__avatar">
+        <div class="overlay">
+            <p>Поменять аватар</p>
+        </div>
+    </div>
+    <ul>
+        {{#each mainData}}
+            <li class="profile-editor__info">
+                <label>{{label}}</label>
+                <input placeholder="{{placeholder}}" id="{{name}}" name="{{name}}" disabled />
+            </li>
+        {{/each}}
+    </ul>
+    <ul>
+        {{#each buttonLabel}}
+            <li class="profile-editor__edit-button">
+                <p>{{this}}</p>
+            </li>
+        {{/each}}
+    </ul>
+</main>
